@@ -88,7 +88,7 @@
         border: none;
         outline: none;
         font-size: 17px;
-        font-family: 'Proxima Nova SemiBold';
+        font-family: 'Proxima Nova Regular';
         border-radius: 8px;
         margin-bottom: 85px;
     }
@@ -141,9 +141,8 @@
         }
 
         .container-fluid {
-            background: url('../assets/mobile/Gold.png');
+            background: url('../assets/mobile/Hero.png');
             background-size: cover;
-            background-position: center;
             height: 765px;
         }
 

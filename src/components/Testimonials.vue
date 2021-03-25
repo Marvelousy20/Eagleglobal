@@ -335,4 +335,22 @@
             bottom: 130px;
         }
     }
+
+    @media screen and (max-width: 365px) {
+        .img-one {
+            position: absolute;
+            left: 35px;
+            bottom: 130px;
+        }
+
+        .img-two {
+            position: absolute;
+            right: 35px;
+            bottom: 130px;
+        }
+
+        .card-text {
+            font-size: 11.5px;
+        }
+    }
 </style>

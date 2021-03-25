@@ -219,4 +219,10 @@
             font-size: 14.5px;
         }
     }
+
+    @media screen and (max-width: 365px) {
+        .text {
+            font-size: 13.5px;
+        }
+    }
 </style>
