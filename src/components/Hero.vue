@@ -8,21 +8,29 @@
             <div class="main-text">
                 The Profitable <br> way to <span>trade.</span> 
             </div>
-            <div class="text">
+            <div class="text desktop">
                 We are all about making the financial markets <br>
                 more accessible and profitable for Nigerians <br>
                 & Africans. Because when you win, we win too.
             </div>
-            <button class="btn-one">
-                <a href="#">Open An Account</a>
-            </button>
+            <div class="text mobile">
+                We empower Africans to <br>
+                access profitable opportunities <br> 
+                In the Financial Markets.
+            </div>
 
-            <button class="btn-two">
-                <a href="#">Try Demo Trading</a>
-            </button>
+            <div>
+                <button class="btn-one">
+                    <a href="#">Open An Account</a>
+                </button>
 
-            <div class="social">
-                <i class="fab fa-whatsapp fa-lg" aria-hidden="true"></i>
+                <button class="btn-two desktop">
+                    <a href="#">Try Demo Trading</a>
+                </button>
+            </div>
+
+            <div class="social desktop">
+                <i class="fab fa-whatsapp fa-lg icon" aria-hidden="true"></i>
 
                 <span>0908 290 8871</span> 
             </div>
@@ -31,6 +39,10 @@
 </template>
 
 <style scoped>
+    .mobile {
+        display: none;
+    }
+
     .container-fluid {
         background: url('../assets/Hero.png');
         background-size: cover;
@@ -49,6 +61,7 @@
         font-size: 15px;
         opacity: .95;
         margin-bottom: 21px;
+        letter-spacing: 0.75px;
     }
 
     .main-text {
@@ -110,5 +123,57 @@
     .social span {
         margin-left: 21px;
         opacity: .95;
+    }
+
+    @media screen and (max-width:800px) {
+        .desktop {
+            display: none;
+        }
+
+        .content {
+            padding-left: 0;
+            padding-top: 60px;
+            text-align: center;
+        }
+
+        .mobile {
+            display: block;
+        }
+
+        .container-fluid {
+            background: url('../assets/mobile/Gold.png');
+            background-size: cover;
+            background-position: center;
+            height: 765px;
+        }
+
+        .trading {
+            font-size: 11px;
+            letter-spacing: 0.55px;
+        }
+
+        .main-text {
+            font-size: 37px;
+            line-height: 37px;
+            margin-bottom: 40px;
+        }
+
+        .text {
+            font-size: 15px;
+            /* line-height: 18px; */
+            margin-bottom: 52px;
+        }
+
+        .btn-one {
+            margin-right: 0;
+        }
+
+        button {
+            width: 153px;
+            height: 48px;
+            font-size: 15px;
+            font-family: 'Proxima Nova Regular';
+            margin-bottom: 0;
+        }
     }
 </style>

@@ -26,9 +26,9 @@ export default {
     Reasons,
     Promise,
     Products,
+    Testimonials,
     Question,
-    Footer,
-    Testimonials
+    Footer
   }
 }
 </script>

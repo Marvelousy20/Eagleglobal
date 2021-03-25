@@ -1,11 +1,14 @@
 <template>
     <div class="container-fluids">
-        <div>
+        <div class="desktop">
             <img src="../assets/EGM Promise.png" alt="main-text">
+        </div>
+        <div class="mobile">
+            <img src="../assets/mobile/Image for The EGM Promise.png" alt="main-text">
         </div>
         <div class="text-container">
             <div class="main-text">The EGM Promise</div>
-            <div class="text">
+            <div class="text desktop">
                 Customer profitability is the cornerstone upon which the EGM foundation is built. 
                 This is why <br> we always go out of our way to provide the best trading conditions, tools, 
                 and resources to <br> make sure ALL our clients are well-equipped to beat the markets.
@@ -14,6 +17,22 @@
                 <span>
                     With our innovative Cloudtrade feature, you can trade in Naira whenever, wherever
                     while <br> our user-friendly and intuitive Copytrading platform lets you copy 
+                    expert traders and earn <br> when they do.
+                </span> 
+            </div>
+            <div class="text mobile">
+                Customer profitability is the cornerstone <br> upon which the EGM foundation
+                is built. <br>
+                This is why we always go out of our way to <br> provide the best trading 
+                conditions, tools, and <br> resources to make sure ALL our clients are <br>
+                well-equipped to beat the markets.
+                <br>
+                <br>
+                <span>
+                    With our innovative Cloudtrade feature, you <br> 
+                    can trade in Naira whenever, wherever
+                    while <br> our user-friendly and intuitive Copytrading <br>
+                    platform lets you copy 
                     expert traders and earn <br> when they do.
                 </span> 
             </div>
@@ -35,6 +54,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 0 70px;
+        width: 100%;
     }
 
     .main-text {
@@ -47,5 +67,45 @@
         font-family: 'Proxima Nova Regular';
         font-size: 15.5px;
         opacity: .95;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    @media screen and (max-width: 800px) {
+        .desktop {
+            display: none;
+        }
+
+        .mobile {
+            display: block;
+        }
+
+        .container-fluids {
+            display: block;
+            margin-top: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .main-text {
+            font-size: 25px;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .text-container {
+            padding: 0;
+        }
+
+        .text {
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
     }
 </style>
