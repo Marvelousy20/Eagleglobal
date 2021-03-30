@@ -68,7 +68,7 @@
     }
 
     .text-container {
-        background: #010C13;
+        background: #052753;
         color: #fff;
         width: 100%;
         height: 394px;
@@ -160,6 +160,7 @@
             font-size: 15px;
             font-family: 'Proxima Nova Regular';
             margin-bottom: 0;
+            border-radius: 5px;
         }
 
         .btn-one {

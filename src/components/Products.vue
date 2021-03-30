@@ -2,101 +2,169 @@
     <div class="container-fluids">
         <div class="range">Our Range of Products</div>
 
-        <div class="wrapper">
-            <div class = 'text-container'>
-                <div class="main-text">MT4</div>
-                <div class= 'text'>
-                    <span class="desktop">
-                        Elevate your trading with our powerful MT4 <br>
-                        platform complete with tools and resources to <br>
-                        efficiently analyze price dynamics and make <br>
-                        trade transactions.
-                    </span>
-                    <span class="mobile">
-                        Elevate your trading with our powerful <br> MT4
-                        platform complete with tools and <br> resources to 
-                        efficiently analyze price <br> dynamics and make
-                        trade transactions.
-                    </span>
+        <div class="wrapper desktop">
+            <a href="#">
+                <div class = 'text-container'>
+                    <div class="main-text">MT4</div>
+                    <div class= 'text'>
+                        <span class="desktop">
+                            Elevate your trading with our powerful MT4 <br>
+                            platform complete with tools and resources to <br>
+                            efficiently analyze price dynamics and make <br>
+                            trade transactions.
+                        </span>
 
-                    <div class="link">
-                        <a href="#">
-                            Get Started <img class="ml-3" src="../assets/Forward arrow.png" alt="">
-                        </a>
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class = 'text-container'>
-                <div class="main-text">CLOUDTRADE</div>
-                <div class= 'text'>
-                    <span class="desktop">
-                        Trade the global markets in Naira with a <br> 
-                        proprietary, indigenous platform that combines <br>
-                        world-class functionality and a user-friendly <br>
-                        interface.
-                    </span>
-                    <span class="mobile">
-                        Trade the global markets in Naira with a <br> 
-                        proprietary, indigenous platform that  <br> combines
-                        world-class functionality and <br> a user-friendly
-                        interface.
-                    </span>
-
-                    <div class="link">
-                        <a href="#">
-                            Get Started <img class="ml-3" src="../assets/Forward arrow.png" alt="">
-                        </a>
+            </a>
+            
+            <a href="#">
+                <div class = 'text-container'>
+                    <div class="main-text">CLOUDTRADE</div>
+                    <div class= 'text'>
+                        <span class="desktop">
+                            Trade the global markets in Naira with a <br> 
+                            proprietary, indigenous platform that combines <br>
+                            world-class functionality and a user-friendly <br>
+                            interface.
+                        </span>
+                    
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class = 'text-container no-margin'>
-                <div class="main-text">COPYTRADE</div>
-                <div class= 'text'>
-                    <span class="desktop">
-                        Trading made super-easy for those who can’t <br> 
-                        trade or don’t have the time to - Make the same <br> 
-                        moves the professionals are making and earn <br>
-                        money whenever they do. Easy as EGM.
-                    </span>
-                    <span class="mobile">
-                        Trading made super-easy for those who <br> can’t 
-                        trade or don’t have the time to. <br> Make the same
-                        moves as professionals <br> & earn
-                        money whenever they do.
-                    </span>
-
-                    <div class="link">
-                        <a href="#">
-                            Get Started <img class="ml-3" src="../assets/Forward arrow.png" alt="">
-                        </a>
+            </a>
+            
+            <a href="#">
+                <div class = 'text-container no-margin'>
+                    <div class="main-text">COPYTRADE</div>
+                    <div class= 'text'>
+                        <span class="desktop">
+                            Trading made super-easy for those who can’t <br> 
+                            trade or don’t have the time to - Make the same <br> 
+                            moves the professionals are making and earn <br>
+                            money whenever they do. Easy as EGM.
+                        </span>
+                    
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class = 'text-container no-margin'>
-                <div class="main-text">ANALYTICS</div>
-                <div class= 'text'>
-                    <span class="desktop">
-                        Welcome to your one-stop blog for in-depth <br> 
-                        market analysis. Get a competitive advantage <br> 
-                        with key news, easy-to-use tools, and the latest <br> 
-                        professional insights from our team of experts.
-                    </span>
-                    <span class="mobile">
-                        Welcome to your one-stop tool for <br> in-depth 
-                        market analysis. Get a <br> competitive advantage
-                        with key news, <br> & insights from our team of experts.
-                    </span>
-
-                    <div class="link">
-                        <a href="#">
-                            Get Started <img class="ml-3" src="../assets/Forward arrow.png" alt="">
-                        </a>
+            </a>
+            
+            <a href="#">
+                <div class = 'text-container no-margin'>
+                    <div class="main-text">ANALYTICS</div>
+                    <div class= 'text'>
+                        <span class="desktop">
+                            Welcome to your one-stop blog for in-depth <br> 
+                            market analysis. Get a competitive advantage <br> 
+                            with key news, easy-to-use tools, and the latest <br> 
+                            professional insights from our team of experts.
+                        </span>
+                    
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+        </div>
+
+        <div class="wrapper mobile">
+            <a href="#">
+                <div class = 'text-container'>
+                    <div class="main-text">MT4</div>
+                    <div class= 'text'>
+                        
+                        <span class="mobile">
+                            Elevate your trading with our powerful <br> MT4
+                            platform complete with tools and <br> resources to 
+                            efficiently analyze price <br> dynamics and make
+                            trade transactions.
+                        </span>
+
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class = 'text-container'>
+                    <div class="main-text">CLOUDTRADE</div>
+                    <div class= 'text'>
+                        <span class="mobile">
+                            Trade the global markets in Naira with a <br> 
+                            proprietary, indigenous platform that  <br> combines
+                            world-class functionality and <br> a user-friendly
+                            interface.
+                        </span>
+
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class = 'text-container no-margin'>
+                    <div class="main-text">COPYTRADE</div>
+                    <div class= 'text'>
+                        <span class="mobile">
+                            Trading made super-easy for those who <br> can’t 
+                            trade or don’t have the time to. <br> Make the same
+                            moves as professionals <br> & earn
+                            money whenever they do.
+                        </span>
+
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class = 'text-container no-margin'>
+                    <div class="main-text">ANALYTICS</div>
+                    <div class= 'text'>
+                        <span class="mobile">
+                            Welcome to your one-stop tool for <br> in-depth 
+                            market analysis. Get a <br> competitive advantage
+                            with key news, <br> & insights from our team of experts.
+                        </span>
+
+                        <div class="link">
+                            <a href="#">
+                                Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
         </div>
     </div>    
 </template>
@@ -114,6 +182,11 @@
         margin-bottom: 60px;
     }
 
+    .desktop .text-container {
+        height: 273px !important;
+        width: 445px !important;
+    }
+
     a:hover {
         text-decoration: none;
     }
@@ -125,12 +198,16 @@
         justify-content: space-between;
     }
 
+    .wrapper a {
+        color: black;
+    }
+
     .text-container:not(.no-margin) {
-        margin-bottom: 60px !important;
+        margin-bottom: 90px !important;
     }
 
     .main-text {
-        background: #104EA1;
+        background: #052753;
         font-family: 'Proxima Nova SemiBold';
         color: #fff;
         font-size: 24px;
@@ -160,7 +237,7 @@
     }
 
     .link a {
-        color: #104EA1;
+        color: #052753;
     }
 
     .mobile {
@@ -169,7 +246,7 @@
 
     @media screen and (max-width: 800px) {
         .desktop {
-            display: none;
+            display: none !important;
         }
 
         .mobile {
@@ -195,12 +272,12 @@
             font-size: 18px;
             padding-top: 17px;
             padding-bottom: 17px;
-            padding-left: 20px;
+            padding-left: 30px;
         }
 
         .text {
-            font-size: 15px;
-            padding-left: 20px;
+            font-size: 16.5px;
+            padding-left: 30px;
             padding-top: 19px;
             padding-bottom: 14px;
         }

@@ -9,9 +9,11 @@
                 The Profitable <br> way to <span>trade.</span> 
             </div>
             <div class="text desktop">
-                We are all about making the financial markets <br>
+                <!-- We are all about making the financial markets <br>
                 more accessible and profitable for Nigerians <br>
-                & Africans. Because when you win, we win too.
+                & Africans. Because when you win, we win too. -->
+                We empower Africans to access profitable <br>
+                Opportunities in the Financial Markets.
             </div>
             <div class="text mobile">
                 We empower Africans to <br>
@@ -66,8 +68,8 @@
 
     .main-text {
         font-family: 'Proxima Nova Bold';
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 60px;
+        line-height: 60px;
         margin-bottom: 37px;
     }
 
@@ -77,7 +79,7 @@
 
     .text {
         font-family: 'Proxima Nova Regular';
-        font-size: 20px;
+        font-size: 23px;
         opacity: .95;
         margin-bottom: 60px;
     }
@@ -173,6 +175,7 @@
             font-size: 15px;
             font-family: 'Proxima Nova Regular';
             margin-bottom: 0;
+            border-radius: 5px;
         }
     }
 </style>

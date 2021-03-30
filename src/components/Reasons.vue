@@ -199,5 +199,9 @@
         .image-container img {
             width: 100%;
         }
+
+        button {
+            border-radius: 5px;
+        }
     }
 </style>

@@ -58,10 +58,14 @@
                             <img src="../assets/Beside tree.png" alt="">
                         </div>
                         <div class="card-text">
-                            The comprehensive service that they provide <br> 
+                            <!-- The comprehensive service that they provide <br> 
                             to customers in addition to the variety of <br> 
                             products they offer are excellent which is why <br> 
-                            I’ll be trading with them for many years.
+                            I’ll be trading with them for many years. -->
+                            The comprehensive service that they provide 
+                            to <br> customers in addition to the variety of 
+                            products they <br> offer are excellent which is 
+                            why I’ll be trading with <br> them for many years
 
                             <div class="name">
                                 - Ehijimentor Ehigie
@@ -74,11 +78,14 @@
                             <img src="../assets/bb.png" alt="">
                         </div>
                         <div class="card-text">
-                            Absolutely love trading with EGM! They <br> 
+                            <!-- Absolutely love trading with EGM! They <br> 
                             give personal coaching to help you learn <br>
                             more about the trading process as well <br>
-                            as daily insights to make smarter investments.
-
+                            as daily insights to make smarter investments. -->
+                            
+                            “Absolutely love trading with EGM! They give personal <br> coaching 
+                            to help you learn more about the trading <br>
+                            process as well as daily insights to make smarter <br> investments.
                             <div class="name">
                                 - Israel Oluwasanmi
                             </div>
@@ -225,21 +232,21 @@
     }
 
     .one {
-        background: #40BB78;
+        background: #104EA1;
         max-width: 482px;
     }
 
     .two {
         background: #104EA1;
-        width: 432px;
+        width: 482px;
         position: relative;
-        right: 50px;
+        right: 87px;
     }
 
     .three {
-        background: #40BB78;
-        width: 432px;
-        float: right;
+        background: #104EA1;
+        width: 482px;
+        /* float: right; */
     }
 
     .mobile {
