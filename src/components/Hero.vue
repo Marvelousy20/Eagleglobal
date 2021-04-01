@@ -9,9 +9,6 @@
                 The Profitable <br> way to <span>trade.</span> 
             </div>
             <div class="text desktop">
-                <!-- We are all about making the financial markets <br>
-                more accessible and profitable for Nigerians <br>
-                & Africans. Because when you win, we win too. -->
                 We empower Africans to access profitable <br>
                 Opportunities in the Financial Markets.
             </div>
@@ -23,18 +20,18 @@
 
             <div>
                 <button class="btn-one">
-                    <a href="#">Open An Account</a>
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">Open An Account</a>
                 </button>
 
                 <button class="btn-two desktop">
-                    <a href="#">Try Demo Trading</a>
+                    <a href="https://demo.eagleglobalmarkets.com/Advanced.aspx">Try Demo Trading</a>
                 </button>
             </div>
 
             <div class="social desktop">
                 <i class="fab fa-whatsapp fa-lg icon" aria-hidden="true"></i>
 
-                <span>0908 290 8871</span> 
+                <a href="https://wa.me/+2349082908871" target="_blank"><span>0908 290 8871</span></a> 
             </div>
         </div>
     </div>
@@ -51,6 +48,15 @@
         background-position: right;
         height: 820px;
         color: #fff;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: #ddd;
+        text-decoration: none;
     }
 
     .content {

@@ -3,7 +3,7 @@
         <div class="range">Our Range of Products</div>
 
         <div class="wrapper desktop">
-            <a href="#">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                 <div class = 'text-container'>
                     <div class="main-text">MT4</div>
                     <div class= 'text'>
@@ -23,7 +23,7 @@
                 </div>
             </a>
             
-            <a href="#">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                 <div class = 'text-container'>
                     <div class="main-text">CLOUDTRADE</div>
                     <div class= 'text'>
@@ -43,7 +43,7 @@
                 </div>
             </a>
             
-            <a href="#">
+            <a href="https://eaglegm.zulutrade.com/" target="_blank">
                 <div class = 'text-container no-margin'>
                     <div class="main-text">COPYTRADE</div>
                     <div class= 'text'>
@@ -85,7 +85,7 @@
         </div>
 
         <div class="wrapper mobile">
-            <a href="#">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                 <div class = 'text-container'>
                     <div class="main-text">MT4</div>
                     <div class= 'text'>
@@ -106,7 +106,7 @@
                 </div>
             </a>
             
-            <a href="#">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                 <div class = 'text-container'>
                     <div class="main-text">CLOUDTRADE</div>
                     <div class= 'text'>
@@ -126,7 +126,7 @@
                 </div>
             </a>
             
-            <a href="#">
+            <a href="https://eaglegm.zulutrade.com/" target="_blank">
                 <div class = 'text-container no-margin'>
                     <div class="main-text">COPYTRADE</div>
                     <div class= 'text'>

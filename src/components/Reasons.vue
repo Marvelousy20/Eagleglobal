@@ -89,7 +89,9 @@
                 </div>
             </div>
             <div class="main-image-container desktop">
-                <img src="../assets/mobile.png" alt="trade">
+                <!-- <img src="../assets/mobile.png" alt="trade"> -->
+                <img src="../assets/mobile/phone.png" alt="trade">
+                <!-- <img src="../assets/mobile/a.png" alt="trade"> -->
             </div>
             <div class="image-container mobile">
                 <img src="../assets/mobile/phones.png" alt="trade">
@@ -100,7 +102,7 @@
 
 <style scoped>
     .main-image-container {
-        width: 40%;
+        width: 34%;
     }
 
     .main-image-container img {
