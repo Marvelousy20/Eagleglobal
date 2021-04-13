@@ -9,13 +9,13 @@
         <div class="text-container">
             <div class="main-text">The EGM Promise</div>
             <div class="text desktop">
-                Customer profitability is the cornerstone upon which the EGM foundation is built. 
+                Customer profitability is the cornerstone upon which the EGM foundation is built. <br> 
                 This is why <br> we always go out of our way to provide the best trading conditions, tools, 
-                and resources to <br> make sure ALL our clients are well-equipped to beat the markets.
+                <br> and resources to <br> make sure ALL our clients are well-equipped to beat the markets.
                 <br>
                 <br>
                 <span>
-                    With our innovative Cloudtrade feature, you can trade in Naira whenever, wherever
+                    With our innovative Cloudtrade feature, you can trade in Naira whenever, <br> wherever
                     while <br> our user-friendly and intuitive Copytrading platform lets you copy 
                     expert traders and earn <br> when they do.
                 </span> 
