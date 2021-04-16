@@ -2,86 +2,100 @@
     <div class="container-fluids">
         <div class="range">Our Range of Products</div>
 
-        <div class="wrapper desktop">
-            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
-                <div class = 'text-container'>
-                    <div class="main-text">MT4</div>
-                    <div class= 'text'>
-                        <span class="desktop">
-                            Elevate your trading with our powerful MT4 <br>
-                            platform complete with tools and resources to <br>
-                            efficiently analyze price dynamics and make <br>
-                            trade transactions.
-                        </span>
+        <div class="wrappers desktop">
+            <div class="wrapper">
+                <div class="divider">
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                    <div class = 'text-container'>
+                        <div class="main-text">MT4</div>
+                        <div class= 'text'>
+                            <span class="desktop">
+                                Elevate your trading with our powerful MT4 <br>
+                                platform complete with tools and resources to <br>
+                                efficiently analyze price dynamics and make <br>
+                                trade transactions.
+                            </span>
 
-                        <div class="link">
-                            <a href="#">
-                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
-                            </a>
+                            <div class="link">
+                                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                                    Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
+                    </a>
                 </div>
-            </a>
-            
-            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
-                <div class = 'text-container'>
-                    <div class="main-text">CLOUDTRADE</div>
-                    <div class= 'text'>
-                        <span class="desktop">
-                            Trade the global markets in Naira with a <br> 
-                            proprietary, indigenous platform that combines <br>
-                            world-class functionality and a user-friendly <br>
-                            interface.
-                        </span>
-                    
-                        <div class="link">
-                            <a href="#">
-                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
-                            </a>
+               
+               <div class = 'divider'>
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                        <div class = 'text-container'>
+                            <div class="main-text">CLOUDTRADE</div>
+                            <div class= 'text'>
+                                <span class="desktop">
+                                    Trade the global markets in Naira with a <br> 
+                                    proprietary, indigenous platform that combines <br>
+                                    world-class functionality and a user-friendly <br>
+                                    interface.
+                                </span>
+                            
+                                <div class="link">
+                                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                                        Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+               </div>
+                
+            </div>
+
+            <div class="wrapper">
+                <div class="divider">
+                    <a href="https://eaglegm.zulutrade.com/" target="_blank">
+                    <div class = 'text-container no-margin'>
+                        <div class="main-text">COPYTRADE</div>
+                        <div class= 'text'>
+                            <span class="desktop">
+                                Trading made super-easy for those who can’t <br> 
+                                trade or don’t have the time to - Make the same <br> 
+                                moves the professionals are making and earn <br>
+                                money whenever they do. Easy as EGM.
+                            </span>
+                        
+                            <div class="link">
+                                <a href="https://eaglegm.zulutrade.com/" target="_blank">
+                                    Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
+                    </a>
                 </div>
-            </a>
-            
-            <a href="https://eaglegm.zulutrade.com/" target="_blank">
-                <div class = 'text-container no-margin'>
-                    <div class="main-text">COPYTRADE</div>
-                    <div class= 'text'>
-                        <span class="desktop">
-                            Trading made super-easy for those who can’t <br> 
-                            trade or don’t have the time to - Make the same <br> 
-                            moves the professionals are making and earn <br>
-                            money whenever they do. Easy as EGM.
-                        </span>
-                    
-                        <div class="link">
-                            <a href="#">
-                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
-                            </a>
+                
+                <div class="divider">
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target='_blank'>
+                    <div class = 'text-container no-margin'>
+                        <div class="main-text">ANALYTICS</div>
+                        <div class= 'text'>
+                            <span class="desktop">
+                                Welcome to your one-stop blog for in-depth <br> 
+                                market analysis. Get a competitive advantage <br> 
+                                with key news, easy-to-use tools, and the latest <br> 
+                                professional insights from our team of experts.
+                            </span>
+                        
+                            <div class="link">
+                                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                                    Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
+                    </a>
                 </div>
-            </a>
-            
-            <a href="#">
-                <div class = 'text-container no-margin'>
-                    <div class="main-text">ANALYTICS</div>
-                    <div class= 'text'>
-                        <span class="desktop">
-                            Welcome to your one-stop blog for in-depth <br> 
-                            market analysis. Get a competitive advantage <br> 
-                            with key news, easy-to-use tools, and the latest <br> 
-                            professional insights from our team of experts.
-                        </span>
-                    
-                        <div class="link">
-                            <a href="#">
-                                Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </a>
+                
+            </div>
         </div>
 
         <div class="wrapper mobile">
@@ -98,7 +112,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="#">
+                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -118,7 +132,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="#">
+                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -138,7 +152,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="#">
+                            <a href="https://eaglegm.zulutrade.com/" target="_blank">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -146,7 +160,7 @@
                 </div>
             </a>
             
-            <a href="#">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                 <div class = 'text-container no-margin'>
                     <div class="main-text">ANALYTICS</div>
                     <div class= 'text'>
@@ -157,7 +171,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="#">
+                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -182,10 +196,10 @@
         margin-bottom: 60px;
     }
 
-    .desktop .text-container {
+    /* .desktop .text-container {
         height: 273px !important;
         width: 445px !important;
-    }
+    } */
 
     a:hover {
         text-decoration: none;
@@ -194,17 +208,36 @@
     .wrapper {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 195px;
+        padding: 0 15%;
+        max-width: 100%;
+        margin: 0 auto;
         justify-content: space-between;
     }
+
+    /* .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 195px;
+        justify-content: space-between;
+    } */
 
     .wrapper a {
         color: black;
     }
 
-    .text-container:not(.no-margin) {
-        margin-bottom: 90px !important;
+    .wrapper .divider {
+        width: 46.5%;
+        
     }
+
+    .text-container:not(.no-margin) {
+        margin-bottom: 70px !important;
+    }
+
+    /* Just added */
+    /* .text-container {
+        margin-bottom: 90px !important;
+    } */
 
     .main-text {
         background: #052753;
@@ -300,6 +333,12 @@
     @media screen and (max-width: 365px) {
         .text {
             font-size: 13.5px;
+        }
+    }
+
+    @media (max-width: 1380px) and (min-width: 800px) {
+        .desktop .text {
+            font-size: 17px;
         }
     }
 </style>

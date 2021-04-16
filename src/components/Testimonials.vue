@@ -217,6 +217,7 @@
         padding-bottom: 80px;
         padding-left: 165px;
         padding-right: 135px;
+        width: 100%;
     }
 
     .cards {
@@ -233,7 +234,7 @@
 
     .one {
         background: #104EA1;
-        max-width: 482px;
+        /* max-width: 482px; */
     }
 
     .two {
@@ -358,6 +359,16 @@
 
         .card-text {
             font-size: 11.5px;
+        }
+    }
+
+    @media (max-width:1293px) and (min-width: 800px) {
+        .desktop {
+            display: none;
+        }   
+
+        .mobile {
+            display: block;
         }
     }
 </style>

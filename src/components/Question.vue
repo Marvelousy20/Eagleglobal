@@ -72,6 +72,7 @@
         color: #fff;
         width: 100%;
         height: 394px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -166,6 +167,75 @@
         .btn-one {
             margin-right: 0;
             margin-bottom: 30px;
+        }
+    }
+
+    @media (max-width: 1314px) and (min-width: 800px) {
+       img {
+           display: none;
+       }
+
+       .mobile {
+           display: none;
+       }
+
+       .image-container {
+           background: url('../assets/mobile/laptop2.png');
+           height: 392px;
+           width: 100%;
+           background-size: cover;
+           background-position: center;
+       }
+    }
+
+     @media (max-width: 1219px) and (min-width: 800px) {
+       .mobile {
+           display: none;
+       }
+
+       .main-text {
+           font-size: 2em;
+       }
+
+       .text {
+           font-size: 1em;
+       }
+
+        button {
+            width: 180px;
+            height: 55px;
+            font-size: 15px;
+            font-family: 'Proxima Nova Regular';
+            margin-bottom: 0;
+            border-radius: 5px;
+        }
+    }
+
+    @media (max-width:1113px) and (min-width: 800px) {
+        .text {
+            font-size: .8em;
+        }
+        button {
+            width: 8rem;
+            font-size: .8em;
+        }
+
+        .main-text {
+            font-size: 1.5em;
+        }
+    }
+
+    @media (max-width: 1315px) and (min-width: 1219px) {
+        .text {
+            font-size: 1em;
+        }
+
+        .main-text {
+            font-size: 1.4em;
+        }
+
+        button {
+            width: 170px;
         }
     }
 </style>
