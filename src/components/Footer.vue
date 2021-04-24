@@ -8,10 +8,10 @@
                     Please ensure you fully understand the <br>
                     risks and take care to manage your exposure
                     and seek independent advice if necessary. 
-                    It’s important for you to consider <br>
+                    It’s important for you to consider <br class="i">
                     relevant legal documents before you decide whether or not to 
                     trade any of our products. 
-                    All our trading accounts have <br> negative balance protection.
+                    All our trading accounts have <br class="i"> negative balance protection.
                 </span>
 
                 <div class="mobile">
@@ -237,6 +237,36 @@
     @media screen and (max-width: 376px) {
         .main-text, .text {
             font-size: 14.2px;
+        }
+    }
+
+    @media (min-width: 1246px) and (max-width: 1299px) {
+        .main-text, .text {
+            font-size: 1.24em;
+        }
+    }
+
+     @media (min-width: 1200px) and (max-width: 1245px) {
+        .main-text, .text {
+            font-size: 1.15em;
+        }
+    }
+
+    @media (min-width: 1178px) and (max-width: 1200px) {
+        .main-text, .text {
+            font-size: 1.13em;
+        }
+    }
+
+    @media (min-width: 1100px) and (max-width: 1178px) {
+        .main-text, .text {
+            font-size: 1em;
+        }
+    }
+
+    @media (min-width: 850px) and (max-width: 1100px) {
+        .main-text, .text {
+            font-size: .9em;
         }
     }
 </style>

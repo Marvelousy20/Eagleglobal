@@ -363,12 +363,20 @@
     }
 
     @media (max-width:1293px) and (min-width: 800px) {
-        .desktop {
+        /* .desktop {
             display: none;
-        }   
+        }    */
 
-        .mobile {
+        /* .mobile {
             display: block;
+        } */
+
+        .two {
+            background: #104EA1;
+            width: 482px;
+            position: relative;
+            right: 60px;
         }
+
     }
 </style>
