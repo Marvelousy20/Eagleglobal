@@ -1,10 +1,18 @@
 <template>
     <div class="container-fluids">
         <div class="desktop">
-            <img src="../assets/EGM Promise.png" alt="main-text">
+            <ik-image 
+                src = 'https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Desktop/EGM_wT6EIPrBz.webp'
+                :lqip="{active:true, quality:30, blur: 5}"
+                loading="lazy"
+            />
         </div>
         <div class="mobile">
-            <img src="../assets/mobile/Image for The EGM Promise.png" alt="main-text">
+            <ik-image 
+                src = 'https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Mobile/ImageEGM_Y93AD46TZ5i.webp'
+                :lqip="{active:true, quality:30, blur: 5}"
+                loading = "lazy"
+            />
         </div>
         <div class="text-container">
             <div class="main-text">The EGM Promise</div>

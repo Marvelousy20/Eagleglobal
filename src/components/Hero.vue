@@ -1,5 +1,36 @@
 <template>
     <div class="container-fluid">
+        <ik-image
+            rel = "preload"
+            class="hero desktop"
+            :lqip="{active:true, quality:30, blur: 5}"
+            src = 'https://ik.imagekit.io/ipcfzmxad/tr:w-1549,h-963,cm-extract,x-248,y--2/Eagleglobal/Desktop/Gold_fPgBZnqUrz4.webp'
+            loading = "lazy"
+        />
+        
+        <ik-image 
+            rel = "preload"
+            class="desktop gold"
+            :lqip="{active:true, quality:30, blur: 5}"
+            src = "https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Desktop/Gold_Price_indi_INDm2tCuL.png"
+            loading = "lazy"
+        />
+
+        <ik-image
+            rel = "preload"
+            class="hero mobile"
+            :lqip="{active:true, quality:30, blur: 2}"
+            src="https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Mobile/Mask_Group_12_UBSPFUCMO6U.webp"
+            loading = "lazy"
+        />
+
+        <ik-image 
+            class="mobile gold-two"
+            :lqip="{active:true, quality:50, blur: 5}"
+            src = "https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Mobile/Gold_Price_indi_3NtsSYejh.png"
+            loading = "lazy"
+        />
+
         <div class="content">
             <div class="trading">
                 <span>TRADING REIMAGINED</span>
@@ -20,18 +51,18 @@
 
             <div>
                 <button class="btn-one">
-                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">Open An Account</a>
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">Open An Account</a>
                 </button>
 
                 <button class="btn-two desktop">
-                    <a href="https://demo.eagleglobalmarkets.com/Advanced.aspx">Try Demo Trading</a>
+                    <a href="https://demo.eagleglobalmarkets.com/Advanced.aspx" rel="noopener">Try Demo Trading</a>
                 </button>
             </div>
 
             <div class="social desktop">
                 <i class="fab fa-whatsapp fa-lg icon" aria-hidden="true"></i>
 
-                <a href="https://wa.me/+2349082908871" target="_blank"><span>0908 290 8871</span></a> 
+                <a href="https://wa.me/+2349082908871" target="_blank" rel="noopener"><span>0908 290 8871</span></a> 
             </div>
         </div>
     </div>
@@ -42,12 +73,29 @@
         display: none;
     }
 
+    .hero {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+
     .container-fluid {
-        background: url('../assets/Hero.png');
-        background-size: cover;
-        background-position: right;
-        height: 820px;
+        /* background: url('../assets/Hero.webp'); */
+        /* background: url('../assets/Hero.png'); */
+        /* background-size: cover;
+        background-position: right; */
+        position: relative;
         color: #fff;
+        height: 820px;
+    }
+
+    .gold {
+        position: absolute;
+        top: 45%;
+        right: 34%;
     }
 
     a {
@@ -77,6 +125,7 @@
         font-size: 60px;
         line-height: 60px;
         margin-bottom: 37px;
+        position: relative;
     }
 
     .main-text span {
@@ -88,6 +137,7 @@
         font-size: 23px;
         opacity: .95;
         margin-bottom: 60px;
+        position: relative;
     }
 
     button {
@@ -99,6 +149,7 @@
         font-family: 'Proxima Nova Regular';
         border-radius: 8px;
         margin-bottom: 85px;
+        position: relative;
     }
 
     button a:hover {
@@ -125,6 +176,7 @@
 
     .social {
         font-family: 'Proxima Nova Regular';
+        position: relative;
         font-size: 15px;
     }
 
@@ -149,7 +201,7 @@
         }
 
         .container-fluid {
-            background: url('../assets/mobile/Hero.png');
+            /* background: url('../assets/mobile/Hero.webp'); */
             background-size: cover;
             height: 765px;
         }
@@ -182,6 +234,13 @@
             font-family: 'Proxima Nova Regular';
             margin-bottom: 0;
             border-radius: 5px;
+        }
+
+        .gold-two {
+            position: absolute;
+            top: 49%;
+            left: 50%;
+            margin-left: -51px;
         }
     }
 </style>

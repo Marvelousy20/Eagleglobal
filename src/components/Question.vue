@@ -1,8 +1,30 @@
 <template>
     <div class="container-fluids">
         <div class="image-container">
-            <img class="desktop" src="../assets/laptop2.png" alt="laptop">
-            <img class="mobile" src="../assets/mobile/laptop2.png" alt="">
+            <!-- <img class="desktop" src="../assets/laptop2.png" alt="laptop"> -->
+            <!-- <picture class="desktop">
+                <source class="lazy" srcset="../assets/laptop2.webp" type="image/webp">
+                <source class="lazy" srcset="../assets/laptop2.png" type="image/png"> 
+                <img src="../assets/laptop2.png" alt="Image">
+            </picture> -->
+            <ik-image 
+                class="desktop"
+                src = 'https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Desktop/laptop2_rk8iRpADh.webp'
+                :lqip="{active:true, quality:30, blur: 5}"
+                loading="lazy"
+            />
+            <!-- <img class="mobile" src="../assets/mobile/laptop2.png" alt=""> -->
+            <!-- <picture class="mobile">
+                <source class="lazy" srcset="../assets/mobile/laptop2.webp" type="image/webp">
+                <source class="lazy" srcset="../assets/mobile/laptop2.png" type="image/png"> 
+                <img src="../assets/mobile/laptop2.png" alt="Image">
+            </picture> -->
+            <ik-image 
+                class="mobile"
+                src = "https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Mobile/laptop2_h-3WwUR6P.webp"
+                :lqip="{active:true, quality:30, blur: 5}"
+                loading="lazy"
+            />
         </div>
 
         <div class="text-container">
@@ -20,24 +42,24 @@
 
             <div class="desktop"> 
                 <button class="btn-one">
-                    <a href="#">Open An Account</a>
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">Open An Account</a>
                 </button>
 
                 <button class="btn-two">
-                    <a href="#">Try Demo Trading</a>
+                    <a href="https://demo.eagleglobalmarkets.com/Advanced.aspx" target="_blank" rel="noopener">Try Demo Trading</a>
                 </button>
             </div>
 
             <div class="mobile button"> 
                 <div>
                     <button class="btn-one">
-                        <a href="#">Open An Account</a>
+                        <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">Open An Account</a>
                     </button>
                 </div>
                 
                 <div>
                     <button class="btn-two">
-                        <a href="#">Try Demo Trading</a>
+                        <a href="https://demo.eagleglobalmarkets.com/Advanced.aspx" target="_blank" rel ="noopener">Try Demo Trading</a>
                     </button>
                 </div>
                 
@@ -180,7 +202,7 @@
        }
 
        .image-container {
-           background: url('../assets/mobile/laptop2.png');
+           /* background: url('../assets/mobile/laptop2.png'); */
            height: 392px;
            width: 100%;
            background-size: cover;

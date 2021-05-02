@@ -5,7 +5,7 @@
         <div class="wrappers desktop">
             <div class="wrapper">
                 <div class="divider">
-                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                     <div class = 'text-container'>
                         <div class="main-text">MT4</div>
                         <div class= 'text'>
@@ -17,8 +17,8 @@
                             </span>
 
                             <div class="link">
-                                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
-                                    Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
+                                    Get Started <img class="ml-2" src="../assets/desktop/Forward arrow@2x.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                 </div>
                
                <div class = 'divider'>
-                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                         <div class = 'text-container'>
                             <div class="main-text">CLOUDTRADE</div>
                             <div class= 'text'>
@@ -39,8 +39,8 @@
                                 </span>
                             
                                 <div class="link">
-                                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
-                                        Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                    <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
+                                        Get Started <img class="ml-2" src="../assets/desktop/Forward arrow@2x.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
 
             <div class="wrapper">
                 <div class="divider">
-                    <a href="https://eaglegm.zulutrade.com/" target="_blank">
+                    <a href="https://eaglegm.zulutrade.com/" target="_blank" rel="noopener">
                     <div class = 'text-container no-margin'>
                         <div class="main-text">COPYTRADE</div>
                         <div class= 'text'>
@@ -64,8 +64,8 @@
                             </span>
                         
                             <div class="link">
-                                <a href="https://eaglegm.zulutrade.com/" target="_blank">
-                                    Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                <a href="https://eaglegm.zulutrade.com/" target="_blank" rel="noopener">
+                                    Get Started <img class="ml-2" src="../assets/desktop/Forward arrow@2x.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                 </div>
                 
                 <div class="divider">
-                    <a href="https://clients.eagleglobalmarkets.com/#/" target='_blank'>
+                    <a href="https://clients.eagleglobalmarkets.com/#/" target='_blank' rel="noopener">
                     <div class = 'text-container no-margin'>
                         <div class="main-text">ANALYTICS</div>
                         <div class= 'text'>
@@ -86,8 +86,8 @@
                             </span>
                         
                             <div class="link">
-                                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
-                                    Get Started <img class="ml-2" src="../assets/Forward arrow@2x.png" alt="">
+                                <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
+                                    Get Started <img class="ml-2" src="../assets/desktop/Forward arrow@2x.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
         </div>
 
         <div class="wrapper mobile">
-            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                 <div class = 'text-container'>
                     <div class="main-text">MT4</div>
                     <div class= 'text'>
@@ -112,7 +112,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -120,7 +120,7 @@
                 </div>
             </a>
             
-            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                 <div class = 'text-container'>
                     <div class="main-text">CLOUDTRADE</div>
                     <div class= 'text'>
@@ -132,7 +132,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -140,7 +140,7 @@
                 </div>
             </a>
             
-            <a href="https://eaglegm.zulutrade.com/" target="_blank">
+            <a href="https://eaglegm.zulutrade.com/" target="_blank" rel="noopener">
                 <div class = 'text-container no-margin'>
                     <div class="main-text">COPYTRADE</div>
                     <div class= 'text'>
@@ -152,7 +152,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="https://eaglegm.zulutrade.com/" target="_blank">
+                            <a href="https://eaglegm.zulutrade.com/" target="_blank" rel="noopener">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -160,7 +160,7 @@
                 </div>
             </a>
             
-            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                 <div class = 'text-container no-margin'>
                     <div class="main-text">ANALYTICS</div>
                     <div class= 'text'>
@@ -171,7 +171,7 @@
                         </span>
 
                         <div class="link">
-                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank">
+                            <a href="https://clients.eagleglobalmarkets.com/#/" target="_blank" rel="noopener">
                                 Get Started <img class="ml-2" src="../assets/mobile/Forward arrow.png" alt="">
                             </a>
                         </div>
@@ -326,7 +326,7 @@
 
     @media screen and (max-width: 376px) {
         .text {
-            font-size: 14.5px;
+            font-size: 14px;
         }
     }
 

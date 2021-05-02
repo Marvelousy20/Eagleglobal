@@ -6,7 +6,7 @@
                 
                 <div class="content-container desktop">
                     <div class="image-cont">
-                        <img src="../assets/Safe and secure.png" alt="safe and secure">
+                        <img src="../assets/desktop/Safe and secure.png" alt="safe and secure">
                     </div>
                     <div>
                         <div class="main-text">Safe & Secure</div>
@@ -34,7 +34,7 @@
 
                 <div class="content-container desktop">
                     <div class="image-cont">
-                        <img src="../assets/Multiple assets.png" alt="multiple asstes">
+                        <img src="../assets/desktop/Multiple assets.png" alt="multiple asstes">
                     </div>
                     <div>
                         <div class="main-text">Variety of Instruments</div>
@@ -64,7 +64,7 @@
 
                 <div class="content-container desktop">
                     <div class="image-cont">
-                        <img src="../assets/Trade signals.png" alt="trade signals">
+                        <img src="../assets/desktop/Trade signals.png" alt="trade signals">
                     </div>
                     <div>
                         <div class="main-text">Daily Market Analysis & Live Education</div>
@@ -89,12 +89,31 @@
                 </div>
             </div>
             <div class="main-image-container desktop">
-                <!-- <img src="../assets/mobile.png" alt="trade"> -->
-                <img src="../assets/mobile/phone.png" alt="trade">
-                <!-- <img src="../assets/mobile/a.png" alt="trade"> -->
+                <!-- <picture>
+                    <source class="lazy" srcset="../assets/mobile/phone.webp" type="image/webp">
+                    <source class="lazy" srcset="../assets/mobile/phone.png" type="image/png"> 
+                    <img src="../assets/mobile/phone.png" alt="Image">
+                </picture> -->
+                <ik-image 
+                    src = "https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Desktop/phone_31ITwRx1WEC.webp"
+                    :lqip="{active:true, quality:30, blur: 5}"
+                    
+                    loading="lazy"
+                />
+
             </div>
             <div class="image-container mobile">
-                <img src="../assets/mobile/phones.png" alt="trade">
+                <ik-image 
+                    src = 'https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Mobile/phones_rpy1uXfixba.webp'
+                    :lqip="{active:true, quality:30, blur: 5}"
+                    
+                    loading="lazy"
+                />
+                <!-- <picture>
+                    <source class="lazy" srcset="../assets/mobile/phones.webp" type="image/webp">
+                    <source class="lazy" srcset="../assets/mobile/phones.png" type="image/png"> 
+                    <img src="../assets/mobile/phones.png" alt="Image">
+                </picture> -->
             </div>
         </div>
     </div>

@@ -5,17 +5,17 @@
                 <div class="text-container">
                     <div class="main-text desktop">
                         <span class="testi">
-                            <img class="img-one" src="../assets/chat bubble green.png" alt="">     
+                            <img class="img-one" src="../assets/desktop/chat bubble green.png" alt="">     
                             Testi— 
-                            <img class="img-two desktop" src="../assets/chat bubble blue.png" alt="">  
+                            <img class="img-two desktop" src="../assets/desktop/chat bubble blue.png" alt="">  
                         </span>  
                         <br> monials
                     </div>
                     <div class="text desktop">
                         <span class="testi">
-                            <img class="img-three desktop" src="../assets/chat bubble blue.png" alt="">
+                            <img class="img-three desktop" src="../assets/desktop/chat bubble blue.png" alt="">
                             Kind words from customers who have traded
-                            <img class="img-four desktop" src="../assets/chat bubble green.png" alt=""> <br>  
+                            <img class="img-four desktop" src="../assets/desktop/chat bubble green.png" alt=""> <br>  
                         </span>
                         with us across our various products.
                     </div>  
@@ -40,7 +40,7 @@
                 <div class="card-container desktop">
                     <div class="cards one">
                         <div class="card-image">
-                            <img src="../assets/man With facecap.png" alt="">
+                            <img src="../assets/desktop/man With facecap.png" alt="">
                         </div>
                         <div class="card-text">
                             EGM has been top notch in terms of how they give <br> 
@@ -55,7 +55,7 @@
                 
                     <div class="cards blue two">
                         <div class="card-image">
-                            <img src="../assets/Beside tree.png" alt="">
+                            <img src="../assets/desktop/Beside tree.png" alt="">
                         </div>
                         <div class="card-text">
                             <!-- The comprehensive service that they provide <br> 
@@ -75,7 +75,7 @@
 
                     <div class="cards three">
                         <div class="card-image">
-                            <img src="../assets/bb.png" alt="">
+                            <img src="../assets/desktop/bb.png" alt="">
                         </div>
                         <div class="card-text">
                             <!-- Absolutely love trading with EGM! They <br> 
