@@ -53,6 +53,12 @@
         display: flex;
         padding: 0;
         margin-top: 82px;
+        height: 394px;
+    }
+
+    .desktop img {
+        height: 100%;
+        width: 100%;
     }
 
     .text-container {
@@ -62,7 +68,6 @@
         flex-direction: column;
         justify-content: center;
         padding: 0 70px;
-        width: 100%;
     }
 
     .main-text {
@@ -82,6 +87,10 @@
     }
 
     @media screen and (max-width: 800px) {
+        .container-fluids {
+            height: auto;
+        }
+
         .desktop {
             display: none;
         }
@@ -118,6 +127,10 @@
     }
 
     @media (max-width: 1211px) and (min-width: 800px) {
+        .container-fluids {
+            height: auto;
+        }
+        
         .mobile {
             display: none;
         }

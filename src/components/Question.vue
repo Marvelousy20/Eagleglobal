@@ -1,30 +1,28 @@
 <template>
     <div class="container-fluids">
         <div class="image-container">
-            <!-- <img class="desktop" src="../assets/laptop2.png" alt="laptop"> -->
-            <!-- <picture class="desktop">
-                <source class="lazy" srcset="../assets/laptop2.webp" type="image/webp">
-                <source class="lazy" srcset="../assets/laptop2.png" type="image/png"> 
-                <img src="../assets/laptop2.png" alt="Image">
-            </picture> -->
-            <ik-image 
+            <!-- <ik-image 
                 class="desktop"
                 src = 'https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Desktop/laptop2_rk8iRpADh.webp'
                 :lqip="{active:true, quality:30, blur: 5}"
                 loading="lazy"
-            />
-            <!-- <img class="mobile" src="../assets/mobile/laptop2.png" alt=""> -->
-            <!-- <picture class="mobile">
-                <source class="lazy" srcset="../assets/mobile/laptop2.webp" type="image/webp">
-                <source class="lazy" srcset="../assets/mobile/laptop2.png" type="image/png"> 
-                <img src="../assets/mobile/laptop2.png" alt="Image">
-            </picture> -->
+            /> -->
             <ik-image 
                 class="mobile"
                 src = "https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Mobile/laptop2_h-3WwUR6P.webp"
                 :lqip="{active:true, quality:30, blur: 5}"
                 loading="lazy"
             />
+
+            <ik-image 
+            
+                class="desktop"
+                src = "https://ik.imagekit.io/ipcfzmxad/Eagleglobal/Desktop/laptop3_eaqBN9pSu_7.webp"
+                :lqip="{active:true, quality:30, blur: 5}"
+                loading="lazy"
+            />
+
+            <!-- <img src="../assets/desktop/laptop3.webp" class="mid" alt=""> -->
         </div>
 
         <div class="text-container">
@@ -69,10 +67,20 @@
 </template>
 
 <style scoped>
-
     .container-fluids {
         display: flex;
         margin: 100px 80px;
+        /* justify-content: space-between; */
+        height: 394px;
+    }
+    
+    .image-container, .text-container {
+        width: 50%;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
     }
 
     .main-text {
@@ -92,10 +100,8 @@
     .text-container {
         background: #052753;
         color: #fff;
-        width: 100%;
-        height: 394px;
-        height: auto;
         display: flex;
+        height: 100%;
         flex-direction: column;
         justify-content: center;
         padding: 0 44px;
@@ -150,15 +156,18 @@
             display: block;
             margin: 0;
             text-align: center;
+            height: auto;
         }
 
         img {
             width: 100%;
         }
 
+        .image-container {
+            width: 100%;
+        }
+
         .text-container {
-            background: #052753;
-            color: #fff;
             width: 100%;
             height: auto;
             display: block;
@@ -190,30 +199,22 @@
             margin-right: 0;
             margin-bottom: 30px;
         }
-    }
+    } 
 
     @media (max-width: 1314px) and (min-width: 800px) {
-       img {
-           display: none;
-       }
+        .container-fluids>* {
+            width: 50%;
+        }
 
        .mobile {
            display: none;
-       }
-
-       .image-container {
-           /* background: url('../assets/mobile/laptop2.png'); */
-           height: 392px;
-           width: 100%;
-           background-size: cover;
-           background-position: center;
-       }
+        }
     }
 
      @media (max-width: 1219px) and (min-width: 800px) {
        .mobile {
            display: none;
-       }
+        }
 
        .main-text {
            font-size: 2em;
@@ -221,7 +222,7 @@
 
        .text {
            font-size: 1em;
-       }
+        }
 
         button {
             width: 180px;

@@ -14,6 +14,7 @@ Vue.use(ImageKit, {
 })
 
 import App from './App.vue'
+import './registerServiceWorker'
 Vue.config.productionTip = false
 
 new Vue({

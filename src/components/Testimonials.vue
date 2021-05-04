@@ -48,7 +48,7 @@
                             comes to trading. I recommend Eagle Global <br> Markets to everyone.
 
                             <div class="name">
-                                - Israel Oluwasanmi
+                                - David Olayanju
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             myself when it comes to trading. I recommend <br> 
                             Eagle Global Markets to everyone.
                             <div class="name">
-                                - Temitayo Akintola
+                                - David Olayanju
                             </div>
                         </div>
                     </div>
@@ -363,14 +363,6 @@
     }
 
     @media (max-width:1293px) and (min-width: 800px) {
-        /* .desktop {
-            display: none;
-        }    */
-
-        /* .mobile {
-            display: block;
-        } */
-
         .two {
             background: #104EA1;
             width: 482px;
