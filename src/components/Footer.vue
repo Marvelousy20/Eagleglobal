@@ -92,7 +92,7 @@
             </div>
 
             <div class="footer">
-                <div><img src="../assets/desktop/newlogo.svg" class="logo" alt="svg"></div>
+                <div><img src="../assets/mobile/Logo_outlined_white-01.svg" class="logo" alt="svg"></div>
                 <div class="website">www.eagleglobalmarkets.com</div>
                 <div class="icons-container desktop">
                     <div class="mb-2 follow">Follow us</div>
