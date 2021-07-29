@@ -11,7 +11,7 @@
                     It’s important for you to consider <br class="i">
                     relevant legal documents before you decide whether or not to 
                     trade any of our products. 
-                    All our trading accounts have <br class="i"> negatives balance protection.
+                    All our trading accounts have <br class="i"> negative balance protection.
                 </span>
 
                 <div class="mobile">
